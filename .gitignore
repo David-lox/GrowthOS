@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.Python
+env/
+venv/
+.venv/
+.venv/*
+
+# Node / frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment files and secrets
+.env
+*.env
+server/.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+growthOS.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE and editor
+.vscode/
+.idea/
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+*.swp
+*~
+
+# Build artifacts
+coverage/
+*.egg-info/
+*.pytest_cache/
+
+# Documentation (uploaded separately)
+/PRD.md
+/README.md
+/client/README.md
+
+# Misc
+*.bak
+*.tmp
